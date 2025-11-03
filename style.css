@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.name {
+    height: 170px;
+    text-align: center;
+    background-color: rgb(18, 18, 43);
+    color: white;
+    padding-top: 2.5rem;
+}
+
+.name h1 {
+    text-transform: uppercase;
+    word-spacing: 7px;
+    letter-spacing: 2px;
+
+}
+
+.name h5 {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 4;
+    /* letter-spacing: 10px; */
+    word-spacing: 4px;
+
+}
+
+.about {
+    height: 170px;
+    width: 80%;
+    background: rgba(230, 211, 211, 0.678);
+
+    text-align: center;
+    border-radius: 10px;
+    margin: 1rem auto;
+    box-shadow: 3px 2px 5px rgb(245, 201, 201),
+        -3px -2px 5px rgb(245, 201, 201);
+
+}
+
+.about h1 {
+    text-transform: uppercase;
+    padding-top: 1.5rem;
+    font-weight: 600;
+}
+
+.about p {
+
+    padding: 15px 20px;
+    font-size: 17px;
+    line-height: 1.5rem;
+}
+
+.education {
+    text-align: center;
+    padding: 1.5rem;
+    height: 170px;
+    width: 80%;
+    background: rgba(173, 216, 230, 0.918);
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 190, 253, 0.747),
+        -3px -2px 5px rgba(0, 190, 253, 0.63);
+}
+
+.education h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    
+
+}
+
+.edu {
+    background-color: white;
+    width: 60%;
+    text-align: center;
+    line-height: 2rem;
+    margin: 10px auto;
+    font-size: 17px;
+    border-radius: 6px;
+   /* padding: 9px; */
+
+}
+.edu:hover{
+    background: rgb(59, 191, 243);
+}
+
+.skill {
+    background-color: rgb(245, 245, 110);
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 3px 2px 5px rgb(243, 168, 30),
+               -3px -2px 5px rgb(243, 168, 30);
+    padding: 1rem;
+
+}
+
+.skill h1 {
+    padding-top: 1.5rem;
+}
+
+.skill-child {
+    background-color: white;
+    width: 60%;
+    margin: 10px auto;
+    /* text-align: center; */
+    line-height: 2rem;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 6px;
+
+}
+.skill-child:hover{
+    background: orange;
+}
+
+.project{
+    background-color: rgba(243, 131, 243, 0.849);
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 1.5rem;
+    
+    border-radius: 6px;
+    box-shadow: 3px 2px 5px purple,
+                -3px -2px 5px purple;
+
+}
+
+.pro-child{
+    background-color: white;
+    width: 60%;
+    margin: 10px auto;
+    line-height: 2rem;
+    border-radius: 6px;
+    font-style: italic;
+    font-weight: 550;
+
+}
+.pro-child:hover{
+    background: rgba(128, 0, 128, 0.76);
+}
+
+.contact{
+    background: lightgreen;
+    width: 80%;
+    text-align: center;
+    margin: 1.5rem auto;
+    border-radius: 6px;
+    padding: 1.5rem;
+    box-shadow: 3px 2px 5px rgb(54, 236, 54),
+                -3px -2px 5px rgb(51, 248, 51);
+
+}
+
+.con-child{
+    background: white;
+    width: 60%;
+    margin: 10px auto;
+    line-height: 2rem;
+    font-weight: 550;
+    border-radius: 6px;
+}
+
+.con-child::selection{
+    color: red;
+    background: yellow;
+}
+.con-child:active{
+    color: blue;
+}
